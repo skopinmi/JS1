@@ -47,11 +47,11 @@
 
         let btns = document.querySelectorAll("button");
         btns.forEach(function(btn){
-            btn.addEventListener("click", function closeClickHandler(event) {
-                console.log(event);
-                event.currentTarget.parentNode.style.display = "none";
-            });
+            btn.addEventListener("click", closeClickHandler);
         });
+        function closeClickHandler (event) {
+            event.currentTarget.parentNode.style.display = "none";
+        }
     </script>
 </body>
 
