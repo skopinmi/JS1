@@ -4,6 +4,11 @@ body {
     font-family: Lato, sans-serif;
 }
 
+.basket {
+    display: none;
+    background-color: honeydew;
+}
+
 .header {
     background: #222222;
     height: 74px;
