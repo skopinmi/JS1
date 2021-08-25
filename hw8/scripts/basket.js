@@ -17,3 +17,4 @@ function addToBasket(event) {
     countProduct.textContent++;
 }
 
+
